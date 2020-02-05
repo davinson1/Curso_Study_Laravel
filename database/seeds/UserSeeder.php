@@ -71,7 +71,7 @@ class UserSeeder extends Seeder
             'password' => bcrypt('admin'),
             
         ]);
-
+//solo se comenta codigo
 /*
 
         $profession = DB::table('profession')->where('id', '=' ,'2')->value('id');
